@@ -26,7 +26,7 @@ body {
     margin-top: 10em;
 }
 
-.analyze {
+.analyse {
     margin-top: 5em;
 }
 
@@ -51,7 +51,7 @@ button.choose-file-button {
   color: #7052CB;
 }
 
-button.analyze-button {
+button.analyse-button {
     width: 200px;
     height: 40px;
     border: solid 1px #7052CB;

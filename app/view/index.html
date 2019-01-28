@@ -7,10 +7,23 @@
 <body>
 <div>
     <div class='center'>
-        <div class='title'>Classify Bear Images 🐻</div>
+        <div class='title'>Classify Skin Lesions</div>
         <p>
-            Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-            all three!
+            Determine whether it is:
+			<p><strong>akiec</strong> (actinic keratosis),
+			</p>
+			<p><strong>bcc</strong> (basal cell carcinoma), 
+			</p>
+			<p><strong>blk</strong> (benign keratosis)
+			</p>
+			<p><strong>df</strong> (dermatofibroma), 
+			</p>
+			<p><strong>nv</strong> (melanocytic nevi),
+			</p>			
+			<p><strong>mel</strong> (melanoma) or 
+			</p>
+			<p><strong>vasc</strong> (vascular).
+			</p>
         </p>
         <div class='content'>
             <div class='no-display'>
@@ -28,8 +41,8 @@
             <div>
                 <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
             </div>
-            <div class='analyze'>
-                <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+            <div class='analyse'>
+                <button id='analyse-button' class='analyse-button' type='button' onclick='analyse()'>Analyse</button>
             </div>
             <div class='result-label'>
                 <label id='result-label'></label>
