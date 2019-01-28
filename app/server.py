@@ -48,7 +48,7 @@ def index(request):
     html = path/'view'/'index.html'
     return HTMLResponse(html.open().read())
 
-@app.route('/analyse', methods=['POST'])
+@app.route('/analyze', methods=['POST'])
 async def analyze(request):
     data = await request.form()
     img_bytes = await (data['file'].read())
