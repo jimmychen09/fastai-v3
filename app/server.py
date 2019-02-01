@@ -11,7 +11,7 @@ from fastai.vision import *
 export_file_url = "https://drive.google.com/uc?export=download&id=1tmc8_RpvWjY-uIHhWTNzPKHwwUnfI-iJ"
 export_file_name = 'export.pkl'
 
-classes = ['akiec', 'basal cell carcinoma', 'blk', 'df', 'mel', 'nv', 'vasc']
+classes = ['akiec', 'bcc', 'blk', 'df', 'mel', 'nv', 'vasc']
 path = Path(__file__).parent
 
 app = Starlette()

@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 .analyze {
@@ -38,7 +38,7 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 button.choose-file-button {
@@ -46,17 +46,17 @@ button.choose-file-button {
   height: 40px;
   border-radius: 2px;
   background-color: #ffffff;
-  border: solid 1px #7052CB;
+  border: solid 1px #87CEFA;
   font-size: 13px;
-  color: #7052CB;
+  color: #87CEFA;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #87CEFA;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #87CEFA;
     font-size: 13px;
     color: #ffffff;
 }
