@@ -1,6 +1,6 @@
 var el = x => document.getElementById(x);
 
-var dict = {
+var dictionary = {
     "akiec": "actinic keratosis",
     "bcc": "basal cell carcinoma",
     "blk": "benign keratosis",
@@ -8,7 +8,7 @@ var dict = {
     "mel": "melanocytic nevi",
     "nv": "melanoma",
     "vasc": "vascular"
-}
+};
 
 function showPicker(inputId) { el('file-input').click(); }
 
@@ -24,7 +24,7 @@ function showPicked(input) {
 
 function analyze() {
     var uploadFiles = el('file-input').files;
-    if (uploadFiles.length != 1) alert('Please select a file!');
+    if (uploadFiles.length != 1) alert('Please select a file');
 
     el('analyze-button').innerHTML = 'Analysing...';
     var xhr = new XMLHttpRequest();
