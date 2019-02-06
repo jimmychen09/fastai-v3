@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .analyze {
@@ -46,17 +46,17 @@ button.choose-file-button {
   height: 40px;
   border-radius: 2px;
   background-color: #ffffff;
-  border: solid 1px #F4A460;
+  border: solid 1px #4169E1;
   font-size: 13px;
-  color: #F4A460;
+  color: #4169E1;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #F4A460;
+    border: solid 1px #4169E1;
     border-radius: 2px;
-    background-color: #F4A460;
+    background-color: #4169E1;
     font-size: 13px;
     color: #ffffff;
 }
